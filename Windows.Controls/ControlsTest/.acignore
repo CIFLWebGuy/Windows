@@ -1,0 +1,13 @@
+*.ncb
+*.suo
+*.user
+Debug/*
+Debug
+bin/*
+bin
+obj/*
+obj
+Release/*
+Release
+TestResults
+TestResults./*

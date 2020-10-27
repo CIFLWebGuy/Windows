@@ -1,0 +1,16 @@
+C:\Users\drushe\source\repos\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.dll
+C:\Users\drushe\source\repos\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.pdb
+C:\Users\drushe\source\repos\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.dll
+C:\Users\drushe\source\repos\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.pdb
+C:\Users\drushe\source\repos\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.Properties.Resources.resources
+C:\Users\drushe\source\repos\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.GenerateResource.cache
+C:\Users\DRUSHE\Source\Repos\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.SearchBox.resources
+C:\Users\DRUSHE\Source\Repos\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csprojAssemblyReference.cache
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.dll
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.pdb
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csprojAssemblyReference.cache
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.Properties.Resources.resources
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.SearchBox.resources
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.GenerateResource.cache
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.dll
+C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.pdb
