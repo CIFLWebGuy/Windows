@@ -60,6 +60,11 @@
             this.editControlSearch.Click += new System.EventHandler(this.EditControlSearch_Click);
             this.editControlSearch.TextChanged += new System.EventHandler(this.EditControlSearch_TextChanged);
             this.editControlSearch.DoubleClick += new System.EventHandler(this.EditControlSearch_DoubleClick);
+            this.editControlSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EditControlSearch_KeyDown);
+            this.editControlSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.editControlSearch_KeyPress);
+            this.editControlSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.editControlSearch_KeyUp);
+            this.editControlSearch.Validating += new System.ComponentModel.CancelEventHandler(this.editControlSearch_Validating);
+            this.editControlSearch.Validated += new System.EventHandler(this.editControlSearch_Validated);
             // 
             // SearchBox
             // 

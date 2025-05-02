@@ -30,6 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Item",
+            "A",
+            "B",
+            "C"}, 0);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "20 - Character",
+            "Frightened (Character)",
+            "4 rounds"}, 0);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Item 2",
+            "Boned"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Item 3",
+            "Cursed"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Item 4");
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
             treeNode1});
@@ -50,12 +66,22 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button2 = new System.Windows.Forms.Button();
             this.labelTdResult = new System.Windows.Forms.Label();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listView1 = new Windows.Controls.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.groupSeperator1 = new Windows.Controls.GroupSeperator();
+            this.treeView1 = new Windows.Controls.TreeView();
             this.commandLink1 = new Windows.Controls.CommandLink();
             this.searchBox1 = new Windows.Controls.SearchBox();
             this.commandButton1 = new Windows.Controls.CommandButton();
             this.editControl1 = new Windows.Controls.EditControl();
             this.splitButton1 = new Windows.Controls.SplitButton();
-            this.treeView1 = new Windows.Controls.TreeView();
             this.contextMenuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
@@ -159,6 +185,91 @@
             this.labelTdResult.TabIndex = 10;
             this.labelTdResult.Text = "Task Dialog Result:";
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "TextDocument-32.png");
+            // 
+            // listView2
+            // 
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6});
+            this.listView2.HideSelection = false;
+            this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1});
+            this.listView2.LargeImageList = this.imageList1;
+            this.listView2.Location = new System.Drawing.Point(48, 12);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(281, 97);
+            this.listView2.TabIndex = 15;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Tile;
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.listView1.HideSelection = false;
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5});
+            this.listView1.LargeImageList = this.imageList1;
+            this.listView1.Location = new System.Drawing.Point(268, 262);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(279, 140);
+            this.listView1.TabIndex = 14;
+            this.listView1.TileSize = new System.Drawing.Size(228, 64);
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Tile;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Width = 76;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Width = 94;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Width = 89;
+            // 
+            // groupSeperator1
+            // 
+            this.groupSeperator1.Location = new System.Drawing.Point(12, 447);
+            this.groupSeperator1.Name = "groupSeperator1";
+            this.groupSeperator1.Size = new System.Drawing.Size(909, 19);
+            this.groupSeperator1.TabIndex = 12;
+            this.groupSeperator1.Text = "Text";
+            // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(453, 67);
+            this.treeView1.Name = "treeView1";
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Node1";
+            treeNode2.Name = "Node0";
+            treeNode2.Text = "Node0";
+            treeNode3.Name = "Node3";
+            treeNode3.Text = "Node3";
+            treeNode4.Name = "Node4";
+            treeNode4.Text = "Node4";
+            treeNode5.Name = "Node2";
+            treeNode5.Text = "Node2";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode2,
+            treeNode5});
+            this.treeView1.ShowLines = false;
+            this.treeView1.Size = new System.Drawing.Size(121, 97);
+            this.treeView1.TabIndex = 11;
+            // 
             // commandLink1
             // 
             this.commandLink1.Description = "This is the description";
@@ -187,6 +298,7 @@
             this.searchBox1.Size = new System.Drawing.Size(240, 23);
             this.searchBox1.TabIndex = 7;
             this.searchBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.searchBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchBox1_KeyPress);
             // 
             // commandButton1
             // 
@@ -203,6 +315,7 @@
             // 
             // editControl1
             // 
+            this.editControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.editControl1.CueBanner = "Enter search text";
             this.editControl1.Location = new System.Drawing.Point(48, 120);
             this.editControl1.Name = "editControl1";
@@ -223,27 +336,6 @@
             this.splitButton1.Text = "splitButton1";
             this.splitButton1.UseVisualStyleBackColor = true;
             // 
-            // treeView1
-            // 
-            this.treeView1.Location = new System.Drawing.Point(453, 67);
-            this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "Node1";
-            treeNode2.Name = "Node0";
-            treeNode2.Text = "Node0";
-            treeNode3.Name = "Node3";
-            treeNode3.Text = "Node3";
-            treeNode4.Name = "Node4";
-            treeNode4.Text = "Node4";
-            treeNode5.Name = "Node2";
-            treeNode5.Text = "Node2";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode5});
-            this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(121, 97);
-            this.treeView1.TabIndex = 11;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -251,6 +343,9 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.listView2);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.groupSeperator1);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.labelTdResult);
             this.Controls.Add(this.button2);
@@ -291,6 +386,16 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label labelTdResult;
         private Windows.Controls.TreeView treeView1;
+        private Windows.Controls.GroupSeperator groupSeperator1;
+        private Windows.Controls.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
     }
 }
 

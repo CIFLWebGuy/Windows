@@ -10,7 +10,7 @@ namespace Windows.Controls
     /// <summary>
     /// Provides data for drop-down menus.
     /// </summary>
-    public class DropDownMenuEventArgs
+    public class DropDownMenuEventArgs:EventArgs
     {
         /// <summary>
         /// Initalizes a DropDownMenuEventArgs object.

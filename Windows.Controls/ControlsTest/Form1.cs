@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +36,7 @@ namespace ControlsTest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,6 +44,20 @@ namespace ControlsTest
             TaskDialogResults result = TaskDialog.ShowMessage(this.Handle, "Test message", "This is a Task Dialog.", "Hello world!", TaskDialogButtons.Yes | TaskDialogButtons.No, TaskDialogIcons.Warning);
 
             labelTdResult.Text = string.Format("Task Dialog Result: {0:G}", result);
+        }
+
+        private void searchBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == '\r')
+            {
+                if(searchBox1.Text == "")
+                {
+                    searchBox1.ShowBallowTip("Search", "Please enter a search string.", EditBallonTipIcons.Error);
+                    return;
+                }
+
+                MessageBox.Show("Searching...");
+            }
         }
     }
 }

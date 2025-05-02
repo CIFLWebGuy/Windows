@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6f6f2aba-cadb-4ffa-8d4b-88c3c5990eb7": {
+      "ProjectGuid": "6f6f2aba-cadb-4ffa-8d4b-88c3c5990eb7",
+      "DisplayName": "Windows.Controls",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

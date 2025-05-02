@@ -142,6 +142,39 @@
             Hides any balloon tip associated with an edit control.
             </summary>
         </member>
+        <member name="M:Windows.Controls.FormExtensions.InvokeMethod(System.Windows.Forms.Form,System.Action)">
+            <summary>
+            Invokes a nonthread-safe method on a form.
+            </summary>
+            <param name="form">The form to invoke the method.</param>
+            <param name="method">The method being invoked. This method must return <see cref="T:System.Void"/>.</param>
+            <remarks>This method will invoke the specified method, marshalling the call to the UI thread if that is required. This allows a worker thread to access the properties of controls on a form.</remarks>
+        </member>
+        <member name="M:Windows.Controls.GroupSeperator.#ctor">
+            <summary>
+            Constructs a GroupSeperator object.
+            </summary>
+        </member>
+        <member name="M:Windows.Controls.GroupSeperator.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="F:Windows.Controls.GroupSeperator.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Windows.Controls.GroupSeperator.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Windows.Controls.GroupSeperator.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:Windows.Controls.ListView">
             <summary>
             Implents an Explorer-styled ListView control.

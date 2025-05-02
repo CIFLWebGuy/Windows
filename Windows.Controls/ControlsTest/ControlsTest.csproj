@@ -80,13 +80,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Windows.Controls\Windows.Controls.csproj">
       <Project>{6f6f2aba-cadb-4ffa-8d4b-88c3c5990eb7}</Project>
       <Name>Windows.Controls</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

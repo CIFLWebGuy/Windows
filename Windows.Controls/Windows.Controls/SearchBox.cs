@@ -209,6 +209,11 @@ namespace Windows.Controls
             }
         }
 
+        public void ShowBallowTip(string title, string message, EditBallonTipIcons icon)
+        {
+            editControlSearch.ShowBalloonTip(title, message, icon);
+        }
+
         private void EditControlSearch_KeyDown(object sender, KeyEventArgs e)
         {
             OnKeyDown(e);
@@ -245,6 +250,26 @@ namespace Windows.Controls
         private void SearchBox_FontChanged(object sender, EventArgs e)
         {
             editControlSearch.Width = this.Width - pictureBoxSearchButton.Width - 3;
+        }
+
+        private void editControlSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            OnKeyPress(e);
+        }
+
+        private void editControlSearch_KeyUp(object sender, KeyEventArgs e)
+        {
+            OnKeyUp(e);
+        }
+
+        private void editControlSearch_Validated(object sender, EventArgs e)
+        {
+            OnValidated(e);
+        }
+
+        private void editControlSearch_Validating(object sender, CancelEventArgs e)
+        {
+            OnValidating(e);
         }
     }
 }

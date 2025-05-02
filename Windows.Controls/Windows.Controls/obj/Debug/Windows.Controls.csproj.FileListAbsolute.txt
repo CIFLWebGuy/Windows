@@ -14,3 +14,23 @@ C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Deb
 C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.GenerateResource.cache
 C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.dll
 C:\Users\DRUSHE\Source\Repos\ABS Tools\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.pdb
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.dll
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.pdb
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.AssemblyReference.cache
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.Properties.Resources.resources
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.SearchBox.resources
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.GenerateResource.cache
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.CoreCompileInputs.cache
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.dll
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.pdb
+D:\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.GroupSeperator.resources
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.dll
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\bin\Debug\Windows.Controls.pdb
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.AssemblyReference.cache
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.GroupSeperator.resources
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.Properties.Resources.resources
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.SearchBox.resources
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.GenerateResource.cache
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.csproj.CoreCompileInputs.cache
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.dll
+C:\Users\visua\OneDrive\Documents\source\repos\Windows\Windows.Controls\Windows.Controls\obj\Debug\Windows.Controls.pdb
