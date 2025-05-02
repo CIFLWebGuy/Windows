@@ -364,3 +364,16 @@ FodyWeavers.xsd
 *.exe
 *.pdb
 *.dll
+Windows.Controls/ControlsTest/obj/Release/ControlsTest.csproj.FileListAbsolute.txt
+Windows.Controls/ControlsTest/obj/Release/ControlsTest.exe
+Windows.Controls/ControlsTest/obj/Release/ControlsTest.pdb
+Windows.Controls/ControlsTest/obj/Release/DesignTimeResolveAssemblyReferences.cache
+Windows.Controls/Windows.Controls/bin/Debug/Windows.Controls.dll
+Windows.Controls/Windows.Controls/bin/Debug/Windows.Controls.pdb
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.csproj.AssemblyReference.cache
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.csproj.CoreCompileInputs.cache
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.csproj.FileListAbsolute.txt
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.csproj.GenerateResource.cache
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.dll
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.pdb
+Windows.Controls/Windows.Controls/obj/Debug/Windows.Controls.Properties.Resources.resources
