@@ -209,7 +209,13 @@ namespace Windows.Controls
             }
         }
 
-        public void ShowBallowTip(string title, string message, EditBallonTipIcons icon)
+        /// <summary>
+        /// Shows a balloon tip on the edit control.
+        /// </summary>
+        /// <param name="title">The title of the balloon.</param>
+        /// <param name="message">The message to display to the user.</param>
+        /// <param name="icon">The icon to display.</param>
+        public void ShowBalloonTip(string title, string message, EditBallonTipIcons icon)
         {
             editControlSearch.ShowBalloonTip(title, message, icon);
         }
