@@ -4,6 +4,8 @@
 
 /Windows.Controls/ControlsTest/bin
 /.vs
-/Windows.Controls/ControlsTest/obj/Debug
+/Windows.Controls/ControlsTest/obj
+/Windows/Windows.Controls/Windows.Controls/bin
+/Windows/Windows.Controls/Windows.Controls/obj
 /Windows.Controls/.vs/Windows.Controls/FileContentIndex
 /Windows.Controls/.vs/Windows.Controls/v17
