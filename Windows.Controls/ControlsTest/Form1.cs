@@ -52,12 +52,42 @@ namespace ControlsTest
             {
                 if(searchBox1.Text == "")
                 {
-                    searchBox1.ShowBallowTip("Search", "Please enter a search string.", EditBallonTipIcons.Error);
+                    searchBox1.ShowBalloonTip("Search", "Please enter a search string.", EditBallonTipIcons.Error);
                     return;
                 }
 
                 MessageBox.Show("Searching...");
             }
+        }
+
+        private void normalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            progressBar1.State = Windows.Controls.ProgressBar.States.Normal;
+            splitButton2.Text = "Normal";
+        }
+
+        private void errorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            progressBar1.State = Windows.Controls.ProgressBar.States.Error;
+            splitButton2.Text = "Error";
+        }
+
+        private void pausedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            progressBar1.State = Windows.Controls.ProgressBar.States.Paused;
+            splitButton2.Text = "Paused";
+        }
+
+        private void splitButton2_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+
+            progressBar1.Value = random.Next(0, 100);
+        }
+
+        private void contextMenuStripProgressBar_Opening(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }

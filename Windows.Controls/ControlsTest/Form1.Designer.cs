@@ -30,30 +30,30 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Item",
             "A",
             "B",
             "C"}, 0);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "20 - Character",
             "Frightened (Character)",
             "4 rounds"}, 0);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Item 2",
             "Boned"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "Item 3",
             "Cursed"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Item 4");
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode4});
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("Item 4");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node0", new System.Windows.Forms.TreeNode[] {
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9});
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuItem1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,8 +82,16 @@
             this.commandButton1 = new Windows.Controls.CommandButton();
             this.editControl1 = new Windows.Controls.EditControl();
             this.splitButton1 = new Windows.Controls.SplitButton();
+            this.splitButton2 = new Windows.Controls.SplitButton();
+            this.commandLink2 = new Windows.Controls.CommandLink();
+            this.progressBar1 = new Windows.Controls.ProgressBar();
+            this.contextMenuStripProgressBar = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.normalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.errorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pausedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.contextMenuStripProgressBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -181,7 +189,7 @@
             this.labelTdResult.AutoSize = true;
             this.labelTdResult.Location = new System.Drawing.Point(44, 312);
             this.labelTdResult.Name = "labelTdResult";
-            this.labelTdResult.Size = new System.Drawing.Size(105, 15);
+            this.labelTdResult.Size = new System.Drawing.Size(104, 15);
             this.labelTdResult.TabIndex = 10;
             this.labelTdResult.Text = "Task Dialog Result:";
             // 
@@ -199,9 +207,9 @@
             this.columnHeader6});
             this.listView2.HideSelection = false;
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem6});
             this.listView2.LargeImageList = this.imageList1;
-            this.listView2.Location = new System.Drawing.Point(48, 12);
+            this.listView2.Location = new System.Drawing.Point(48, 0);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(281, 97);
             this.listView2.TabIndex = 15;
@@ -216,10 +224,10 @@
             this.columnHeader3});
             this.listView1.HideSelection = false;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5});
+            listViewItem1,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9});
             this.listView1.LargeImageList = this.imageList1;
             this.listView1.Location = new System.Drawing.Point(268, 262);
             this.listView1.Name = "listView1";
@@ -253,19 +261,19 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(453, 67);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "Node1";
-            treeNode2.Name = "Node0";
-            treeNode2.Text = "Node0";
-            treeNode3.Name = "Node3";
-            treeNode3.Text = "Node3";
-            treeNode4.Name = "Node4";
-            treeNode4.Text = "Node4";
-            treeNode5.Name = "Node2";
-            treeNode5.Text = "Node2";
+            treeNode6.Name = "Node1";
+            treeNode6.Text = "Node1";
+            treeNode7.Name = "Node0";
+            treeNode7.Text = "Node0";
+            treeNode8.Name = "Node3";
+            treeNode8.Text = "Node3";
+            treeNode9.Name = "Node4";
+            treeNode9.Text = "Node4";
+            treeNode10.Name = "Node2";
+            treeNode10.Text = "Node2";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode5});
+            treeNode7,
+            treeNode10});
             this.treeView1.ShowLines = false;
             this.treeView1.Size = new System.Drawing.Size(121, 97);
             this.treeView1.TabIndex = 11;
@@ -327,7 +335,7 @@
             // splitButton1
             // 
             this.splitButton1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.splitButton1.Location = new System.Drawing.Point(48, 67);
+            this.splitButton1.Location = new System.Drawing.Point(38, 384);
             this.splitButton1.Name = "splitButton1";
             this.splitButton1.ShowShieldIcon = false;
             this.splitButton1.Size = new System.Drawing.Size(110, 27);
@@ -336,6 +344,72 @@
             this.splitButton1.Text = "splitButton1";
             this.splitButton1.UseVisualStyleBackColor = true;
             // 
+            // splitButton2
+            // 
+            this.splitButton2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.splitButton2.Location = new System.Drawing.Point(796, 418);
+            this.splitButton2.Name = "splitButton2";
+            this.splitButton2.ShowShieldIcon = false;
+            this.splitButton2.Size = new System.Drawing.Size(109, 23);
+            this.splitButton2.SplitMenu = this.contextMenuStripProgressBar;
+            this.splitButton2.TabIndex = 16;
+            this.splitButton2.Text = "Normal";
+            this.splitButton2.UseVisualStyleBackColor = true;
+            this.splitButton2.Click += new System.EventHandler(this.splitButton2_Click);
+            // 
+            // commandLink2
+            // 
+            this.commandLink2.Description = null;
+            this.commandLink2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.commandLink2.Location = new System.Drawing.Point(654, 359);
+            this.commandLink2.Name = "commandLink2";
+            this.commandLink2.ShowShieldIcon = false;
+            this.commandLink2.Size = new System.Drawing.Size(152, 42);
+            this.commandLink2.TabIndex = 17;
+            this.commandLink2.Text = "commandLink2";
+            this.commandLink2.UseVisualStyleBackColor = true;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(579, 418);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(211, 23);
+            this.progressBar1.State = Windows.Controls.ProgressBar.States.Normal;
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressBar1.TabIndex = 18;
+            this.progressBar1.Value = 50;
+            // 
+            // contextMenuStripProgressBar
+            // 
+            this.contextMenuStripProgressBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.normalToolStripMenuItem,
+            this.errorToolStripMenuItem,
+            this.pausedToolStripMenuItem});
+            this.contextMenuStripProgressBar.Name = "contextMenuStripProgressBar";
+            this.contextMenuStripProgressBar.Size = new System.Drawing.Size(115, 70);
+            this.contextMenuStripProgressBar.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripProgressBar_Opening);
+            // 
+            // normalToolStripMenuItem
+            // 
+            this.normalToolStripMenuItem.Name = "normalToolStripMenuItem";
+            this.normalToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.normalToolStripMenuItem.Text = "Normal";
+            this.normalToolStripMenuItem.Click += new System.EventHandler(this.normalToolStripMenuItem_Click);
+            // 
+            // errorToolStripMenuItem
+            // 
+            this.errorToolStripMenuItem.Name = "errorToolStripMenuItem";
+            this.errorToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.errorToolStripMenuItem.Text = "Error";
+            this.errorToolStripMenuItem.Click += new System.EventHandler(this.errorToolStripMenuItem_Click);
+            // 
+            // pausedToolStripMenuItem
+            // 
+            this.pausedToolStripMenuItem.Name = "pausedToolStripMenuItem";
+            this.pausedToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
+            this.pausedToolStripMenuItem.Text = "Paused";
+            this.pausedToolStripMenuItem.Click += new System.EventHandler(this.pausedToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -343,6 +417,9 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.commandLink2);
+            this.Controls.Add(this.splitButton2);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.groupSeperator1);
@@ -362,6 +439,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
+            this.contextMenuStripProgressBar.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -396,6 +474,13 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
+        private Windows.Controls.SplitButton splitButton2;
+        private Windows.Controls.CommandLink commandLink2;
+        private Windows.Controls.ProgressBar progressBar1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStripProgressBar;
+        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem errorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pausedToolStripMenuItem;
     }
 }
 
